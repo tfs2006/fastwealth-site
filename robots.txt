@@ -1,0 +1,11 @@
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Block access to admin and backend directories (for future use)
+Disallow: /admin/
+Disallow: /backend/
+Disallow: /private/
+
+# Reference to sitemap
+Sitemap: https://tfs2006.github.io/fastwealth-site/sitemap.xml
