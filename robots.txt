@@ -1,11 +1,12 @@
+# Fast Wealth - Domain Flipping Training
 # Allow all search engines to crawl the site
 User-agent: *
 Allow: /
-
-# Block access to admin and backend directories (for future use)
 Disallow: /admin/
-Disallow: /backend/
 Disallow: /private/
 
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
 # Reference to sitemap
-Sitemap: https://tfs2006.github.io/fastwealth-site/sitemap.xml
+Sitemap: https://fastwealth.4ourmedia.com/sitemap.xml
