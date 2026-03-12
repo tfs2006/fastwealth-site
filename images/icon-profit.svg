@@ -1,0 +1,25 @@
+<!-- Money bag / sell and profit -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Sell and collect profit">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+    <linearGradient id="bag" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="20" fill="url(#bg)"/>
+  <!-- Bag body -->
+  <ellipse cx="40" cy="50" rx="22" ry="20" fill="url(#bag)"/>
+  <!-- Bag tie -->
+  <rect x="32" y="24" width="16" height="10" rx="5" fill="#4f46e5"/>
+  <!-- Knot / loop top -->
+  <path d="M34,24 Q40,16 46,24" fill="none" stroke="#4f46e5" stroke-width="3" stroke-linecap="round"/>
+  <!-- Dollar on bag -->
+  <text x="40" y="56" font-family="Arial Black, sans-serif" font-weight="900" font-size="22" fill="white" text-anchor="middle">$</text>
+  <!-- Stars -->
+  <text x="18" y="24" font-size="10" fill="#f59e0b">★</text>
+  <text x="56" y="20" font-size="8" fill="#f59e0b">★</text>
+</svg>

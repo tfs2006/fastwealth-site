@@ -1,0 +1,19 @@
+<!-- Link chain / affiliate bonuses -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="ClickBank affiliate bonuses">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="20" fill="url(#bg)"/>
+  <!-- Chain link left -->
+  <rect x="12" y="32" width="24" height="16" rx="8" fill="none" stroke="#6366f1" stroke-width="5"/>
+  <!-- Chain link right -->
+  <rect x="44" y="32" width="24" height="16" rx="8" fill="none" stroke="#a855f7" stroke-width="5"/>
+  <!-- Dollar badge -->
+  <circle cx="40" cy="56" r="12" fill="#22c55e"/>
+  <text x="40" y="61" font-family="Arial Black, sans-serif" font-weight="900" font-size="14" fill="white" text-anchor="middle">$</text>
+  <!-- Plus sign above -->
+  <text x="40" y="28" font-family="Arial Black, sans-serif" font-weight="900" font-size="18" fill="#6366f1" text-anchor="middle">+</text>
+</svg>

@@ -1,0 +1,22 @@
+<!-- Target / finding profitable domains -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Finding profitable domains">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="20" fill="url(#bg)"/>
+  <!-- Target rings -->
+  <circle cx="40" cy="40" r="24" fill="none" stroke="#6366f1" stroke-width="2.5" opacity="0.25"/>
+  <circle cx="40" cy="40" r="16" fill="none" stroke="#6366f1" stroke-width="2.5" opacity="0.5"/>
+  <circle cx="40" cy="40" r="8" fill="#6366f1" opacity="0.8"/>
+  <!-- Crosshairs -->
+  <line x1="40" y1="12" x2="40" y2="30" stroke="#6366f1" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <line x1="40" y1="50" x2="40" y2="68" stroke="#6366f1" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <line x1="12" y1="40" x2="30" y2="40" stroke="#6366f1" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <line x1="50" y1="40" x2="68" y2="40" stroke="#6366f1" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <!-- Arrow hitting target -->
+  <line x1="60" y1="18" x2="44" y2="36" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="60,18 52,18 58,26" fill="#ef4444"/>
+</svg>

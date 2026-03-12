@@ -1,0 +1,20 @@
+<!-- Megaphone / market and list -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Market and list domains">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="20" fill="url(#bg)"/>
+  <!-- Megaphone body -->
+  <polygon points="18,30 38,22 38,52 18,44" fill="#6366f1" opacity="0.9"/>
+  <rect x="10" y="30" width="10" height="14" rx="3" fill="#4f46e5"/>
+  <!-- Horn bell -->
+  <path d="M38,20 Q64,20 64,40 Q64,60 38,54" fill="#a855f7" opacity="0.8"/>
+  <!-- Sound waves -->
+  <path d="M52,30 Q58,36 52,42" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M57,25 Q67,36 57,47" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <!-- Handle drops -->
+  <rect x="14" y="44" width="8" height="14" rx="3" fill="#4f46e5" opacity="0.6"/>
+</svg>

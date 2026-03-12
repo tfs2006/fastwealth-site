@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 52" role="img" aria-label="Fast Wealth logo">
+  <defs>
+    <linearGradient id="logoGem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+    <linearGradient id="logoText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+  </defs>
+  <!-- Diamond icon -->
+  <polygon points="26,5 44,20 26,47 8,20" fill="url(#logoGem)" opacity="0.95"/>
+  <line x1="26" y1="5" x2="26" y2="47" stroke="rgba(99,102,241,0.4)" stroke-width="1"/>
+  <line x1="8" y1="20" x2="44" y2="20" stroke="rgba(99,102,241,0.4)" stroke-width="1"/>
+  <polygon points="26,5 38,18 26,22 14,18" fill="white" opacity="0.3"/>
+  <!-- Wordmark: Fast Wealth -->
+  <text x="56" y="34" font-family="'Poppins', 'Segoe UI', Arial, sans-serif" font-weight="800" font-size="22" fill="url(#logoText)" letter-spacing="-0.5">Fast Wealth</text>
+</svg>

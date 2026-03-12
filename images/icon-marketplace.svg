@@ -1,0 +1,22 @@
+<!-- Storefront / marketplace optimization -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Marketplace optimization">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="20" fill="url(#bg)"/>
+  <!-- Store building -->
+  <rect x="16" y="36" width="48" height="30" rx="3" fill="#6366f1" opacity="0.85"/>
+  <!-- Roof / awning -->
+  <polygon points="12,38 68,38 60,22 20,22" fill="#4f46e5"/>
+  <!-- Door -->
+  <rect x="34" y="48" width="12" height="18" rx="3" fill="white" opacity="0.7"/>
+  <!-- Windows -->
+  <rect x="18" y="44" width="10" height="10" rx="2" fill="white" opacity="0.5"/>
+  <rect x="52" y="44" width="10" height="10" rx="2" fill="white" opacity="0.5"/>
+  <!-- Sign / label -->
+  <rect x="24" y="26" width="32" height="10" rx="2" fill="white" opacity="0.8"/>
+  <text x="40" y="34" font-family="Arial, sans-serif" font-weight="700" font-size="7" fill="#6366f1" text-anchor="middle">MARKETPLACE</text>
+</svg>

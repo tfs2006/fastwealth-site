@@ -1,0 +1,22 @@
+<!-- Quick Profit Icon: rocket / fast arrow -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Quick profit turnaround">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="20" fill="url(#bg)"/>
+  <!-- Rocket body -->
+  <ellipse cx="40" cy="36" rx="10" ry="18" fill="#6366f1" opacity="0.9"/>
+  <!-- Nose -->
+  <polygon points="40,14 32,32 48,32" fill="#4f46e5"/>
+  <!-- Fins -->
+  <polygon points="30,46 24,58 34,50" fill="#a855f7"/>
+  <polygon points="50,46 56,58 46,50" fill="#a855f7"/>
+  <!-- Flame -->
+  <ellipse cx="40" cy="58" rx="6" ry="9" fill="#f59e0b" opacity="0.85"/>
+  <ellipse cx="40" cy="60" rx="3.5" ry="6" fill="#ef4444" opacity="0.7"/>
+  <!-- Window -->
+  <circle cx="40" cy="34" r="4" fill="white" opacity="0.7"/>
+</svg>

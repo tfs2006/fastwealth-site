@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="gem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background (iOS style) -->
+  <rect width="180" height="180" rx="40" ry="40" fill="url(#bg)"/>
+  <!-- Large diamond -->
+  <polygon points="90,28 152,72 90,152 28,72" fill="url(#gem)" opacity="0.95"/>
+  <line x1="90" y1="28" x2="90" y2="152" stroke="rgba(99,102,241,0.35)" stroke-width="2"/>
+  <line x1="28" y1="72" x2="152" y2="72" stroke="rgba(99,102,241,0.35)" stroke-width="2"/>
+  <line x1="28" y1="72" x2="90" y2="152" stroke="rgba(99,102,241,0.2)" stroke-width="1.5"/>
+  <line x1="152" y1="72" x2="90" y2="152" stroke="rgba(99,102,241,0.2)" stroke-width="1.5"/>
+  <!-- Highlight facet -->
+  <polygon points="90,28 124,64 90,76 56,64" fill="white" opacity="0.3"/>
+</svg>
